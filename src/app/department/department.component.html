@@ -1,0 +1,54 @@
+<div class="container mt-5">
+  <!-- top bar  -->
+  <div class="row">
+    <div class="col-4">
+      <form method="get">
+        <div class="row">
+          <input type="search" class="form-control col-8" name="search" id="search">
+          <input type="reset" class="col-2 btn btn-outline-secondary" value="Clear">
+        </div>
+      </form>
+    </div>
+    <div class="col-8">
+      <a routerLink="../add" class="btn btn-outline-primary float-right">Add</a>
+    </div>
+  </div>
+  <!-- tobar end -->
+
+  <div class="table pt-5  d-flex justify-content-center">
+    <table class="border table-bordered" id="my-dep-table">
+      <thead class="text-uppercase text-center">
+        <tr>
+          <th>
+            Sr#
+          </th>
+          <th>
+            Department Name
+          </th>
+          <th colspan="2">
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody class="text-capitalize" id="tbody">
+          <!-- <tr>
+              <td>
+                  1
+              </td>
+              <td>
+                  it
+              </td>
+              <td>
+                  edit
+              </td>
+              <td>
+                  del
+              </td>
+          </tr> -->
+      </tbody>
+    </table>
+
+  </div>
+
+
+</div>
