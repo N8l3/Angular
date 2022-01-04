@@ -1,0 +1,38 @@
+<div class="container form jumbotron" style="box-shadow: black 20px 20px 100px 20px ;">
+    <div class="p-3"><a routerLink="../employee" class="float-right text-black text-decoration-none"><span class="btn btn-light" style="cursor: pointer;">Close &times;</span></a></div><br>
+<form method="post" class="p-3">
+    <div class="h2 text-center bg-light">
+        Employee Details
+    </div>
+    <span class="text-danger" id="msg"></span>
+    <!-- <div class="form-group">
+        <label for="Id">Id:</label>
+        <div class="input-group">
+        <input type="number" disabled  class="form-control" id="id" name="id" required>
+        <span class="btn btn-warning" (click)="genrateId()">Click Here To Generate ID</span>
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="name">Age</label>
+        <input type="number" min="0" class="form-control" id="age" name="age" required>
+    </div>
+    <div>
+    <input type="reset" value="Reset" class="btn btn-outline-secondary">
+    <input type="button" value="Submit" id="submit"  class="btn btn-outline-primary"style="float:right;" (click)="add()">
+    </div>
+    
+</form>    
+</div>
+
+
+
+
+
+
+
+
+
